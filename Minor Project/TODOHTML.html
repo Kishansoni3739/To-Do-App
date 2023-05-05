@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="TODOCSS.css">
+    <script src="https://kit.fontawesome.com/0c5c2c5081.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="intro common">
+            <h1>Soni Task Manager</h1>
+            <h2>Kishan</h2>
+        </div>
+        <div class="userinput common">
+            <div class="col-12">
+                <input id="userInput" type="text" placeholder="Enter Task" maxlength="27">
+                <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+            </div>
+        </div>
+        <div class="headings common">
+            <p id="first">Enter your task into the input field to add items to your list.</p>
+			<p id="second">Click the item to mark it as complete.</p>
+        </div>
+        <div class="itemList tasklist">
+            <h2 style="text-align: center;">Task List</h2>
+            <div class="listItems col-12">
+				<ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+				</ul>
+			</div>
+        </div>
+    </div>
+    <script type="text/javascript" src="JSfile.js"></script>
+</body>
+</html>
